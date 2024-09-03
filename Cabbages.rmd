@@ -47,7 +47,7 @@ This box plot shows the c39 box way lower than the c52 box, the top of the c39 b
 favstats(VitC~Cult,data=veggy)
 ```
 
-This graph shows that c52 has a higher average/mean of 64.4 compared to c39's mean of 51.5.
+This graph shows that c52 has a higher average/mean of 64.4 compared to c39's mean of 51.5.Which is why the c52 box is higher in the box plot compared to the c39 box. 
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
@@ -55,7 +55,7 @@ This graph shows that c52 has a higher average/mean of 64.4 compared to c39's me
 t.test(VitC~Cult,data=veggy)
 ```
 
-
+The probability of getting this result is the number .00000003405
 
 # Discussion and Conclusion
 
